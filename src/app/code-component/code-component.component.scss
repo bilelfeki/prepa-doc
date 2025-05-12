@@ -10,5 +10,14 @@ code {
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
-
+}
+@media only screen and (max-width: 400px) {
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
 }
