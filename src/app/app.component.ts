@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CodeComponentComponent } from "./code-component/code-component.component";
+import { code } from './models/code';
 
 @Component({
   selector: 'app-root',
@@ -85,4 +86,3 @@ export class AppComponent {
   ] ;
   }
 
-type code = { type: 'input' | 'output', text: string }[]
