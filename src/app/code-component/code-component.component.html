@@ -1,7 +1,7 @@
 <div class="code-component">
   <code>
     @for (line of code; track line) { @switch (line.type) { @case ('input') {
-    <pre><span>>>> {{ line.text }}</span></pre>
+    <pre><span class="code-input">>>></span> {{ line.text }}</pre>
     } @case ('output') {
       <pre><span>{{ line.text }} </span></pre> } } }
   </code>
